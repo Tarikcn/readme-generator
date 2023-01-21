@@ -55,10 +55,15 @@ const questions = [
   },
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {}
+// function to write README file - generating a Markdown file using the data passed to the generateMarkdown function, and then writing it to a file named fileName in the current working directory.
+function writeToFile(fileName, data) {
+  const markdownData = generateMarkdown(data);
+  fs.writeFile(path.join(process.cwd(), fileName), markdownData, (err) =>
+    err ? console.log(err) : console.log("Successfully created README.md!")
+  );
+}
 
-// function to initialize program
+// function to initialize program and prompt user for input to generate README file content using inquirer
 function init() {
   inquirer.prompt(questions).then((data) => {
     writeToFile("GeneratedREADME.md", data);
