@@ -44,8 +44,12 @@ node index.js
 ### Deployment Live URL
 
 - Deployment URL :
-
+   https://github.com/Tarikcn/readme-generator/
 ### Screen Recording
+  
+
+https://user-images.githubusercontent.com/115656280/214084865-6e576462-7e3f-4080-b912-4d2720ba30c4.mp4
+
 
 ## License
 
