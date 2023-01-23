@@ -35,6 +35,9 @@ Create a command-line application that accepts user input, When a user is prompt
 
 ## Usage Information
 
+- Go to my Github repo for this project :  https://github.com/Tarikcn/readme-generator/
+- clone the repo and open in code editor
+- Access the terminal
 - The application will be invoked by using the following command:
 
 ```bash
@@ -46,6 +49,8 @@ node index.js
 - Deployment URL :
    https://github.com/Tarikcn/readme-generator/
 ### Screen Recording
+  
+  Walkthrough video:
   
 
 https://user-images.githubusercontent.com/115656280/214084865-6e576462-7e3f-4080-b912-4d2720ba30c4.mp4
